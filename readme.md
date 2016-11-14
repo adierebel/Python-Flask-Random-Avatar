@@ -1,6 +1,6 @@
 #Random Avatar on Flask Python
 
-'
+`
 from app import app
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import random
@@ -35,4 +35,4 @@ def index():
 	image = random_ava("suryadi")
 	return "<img src='/static/" + image + "'/>"
 	
-'
+`
